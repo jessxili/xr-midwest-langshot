@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/Owner/unity/GroKit-Lite_URP
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49622
-Successfully changed project path to: /Users/Owner/unity/GroKit-Lite_URP
-/Users/Owner/unity/GroKit-Lite_URP
+51934
+Successfully changed project path to: /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,69 +56,69 @@ Successfully changed project path to: /Users/Owner/unity/GroKit-Lite_URP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 3996090083 [EditorId] 3996090083 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 2174603291 [EditorId] 2174603291 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 3996090083 [EditorId] 3996090083 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 2174603291 [EditorId] 2174603291 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 24.20 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 11.30 ms.
+Refreshing native plugins compatible for Editor in 17.94 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 11.55 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/Owner/unity/GroKit-Lite_URP/Assets
+[Subsystems] Discovering subsystems at path /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
 0: Apple M1 (high power)
 Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56107
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56311
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003079 seconds.
-- Loaded All Assemblies, in  0.344 seconds
+Registered in 0.001015 seconds.
+- Loaded All Assemblies, in  0.292 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 238 ms
+Android Extension - Scanning For ADB Devices 243 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.469 seconds
-Domain Reload Profiling: 813ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 741ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (99ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (469ms)
+	FinalizeReload (449ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (426ms)
+		SetupLoadedEditorAssemblies (408ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (328ms)
+			InitializePlatformSupportModulesInManaged (315ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (69ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (64ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,8 +127,8 @@ Domain Reload Profiling: 813ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.575 seconds
-Refreshing native plugins compatible for Editor in 9.80 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 9 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -138,6 +138,8 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+12/10 13:47:35.895 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+12/10 13:47:35.895 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -148,46 +150,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.576 seconds
-Domain Reload Profiling: 1150ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1366ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (25ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (254ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (163ms)
-				TypeCache.ScanAssembly (139ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (576ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (617ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (419ms)
+		SetupLoadedEditorAssemblies (445ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+[OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.58 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 4.93 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
 <color=cyan> GroKit-Core Activation </color> - Jessica Xiao you have 181 day(s) remaining on your subscription.
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -223,10 +226,10 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/outp
 
 (Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs Line: 21)
 
-Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 107 unused Assets / (368.3 KB). Loaded Objects now: 6163.
-Memory consumption went from 250.5 MB to 250.1 MB.
-Total: 9.443958 ms (FindLiveObjects: 3.144750 ms CreateObjectMapping: 0.181916 ms MarkObjects: 5.129625 ms  DeleteObjects: 0.987041 ms)
+Unloading 6293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (485.3 KB). Loaded Objects now: 6726.
+Memory consumption went from 288.8 MB to 288.3 MB.
+Total: 10.128292 ms (FindLiveObjects: 1.245000 ms CreateObjectMapping: 0.216875 ms MarkObjects: 8.196250 ms  DeleteObjects: 0.469375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -241,19 +244,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 957.357748 seconds.
-  path: Assets/GroKit/Core/Components/Spawners
-  artifactKey: Guid(76f1c682b5a159b408b4cdfb42566921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GroKit/Core/Components/Spawners using Guid(76f1c682b5a159b408b4cdfb42566921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820fbeca04c850487d4febb3724986c4') in 0.011446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.767085 seconds.
-  path: Assets/GroKit/Samples/GroBlocksExamples_TriggersAndSpawners.unity
-  artifactKey: Guid(92528607d90893640b86bd804982a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GroKit/Samples/GroBlocksExamples_TriggersAndSpawners.unity using Guid(92528607d90893640b86bd804982a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea5296808507fc786046ad6ef762573') in 0.000712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
