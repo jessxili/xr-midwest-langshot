@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/GroKit/Integrations/Meta/GroKit_Meta_Starter_Hands.unity
     guid: 925c55a046c11e543b95d86560bf750e
-  - enabled: 1
+  - enabled: 0
     path: Assets/GroKit/Integrations/Meta/GroKit_Meta_Starter_Controllers.unity
     guid: abdd2b4b75dcc5b4696726b204399b85
-  - enabled: 1
+  - enabled: 0
     path: Assets/GroKit/Samples/Fly Through Rings/Fly Through Rings.unity
     guid: e2db33454cf87de408ed078660f921e8
+  - enabled: 1
+    path: Assets/Store.unity
+    guid: 96f32d2825eaa6d479a261d4abb87817
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 14c6ce5e0352e2a40bcd13c8e96c1adb,
       type: 2}
