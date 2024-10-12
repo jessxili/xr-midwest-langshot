@@ -234,3 +234,160 @@ Received Import Request.
 Start importing Assets/ThreeBox using Guid(f27a1e7746cfc454db99e9242591c81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0329ee7f066a3b3750f0dd05a5604c9c') in 0.005056 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 110.456593 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables
+  artifactKey: Guid(9db2357073a068247aeba46007713228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables using Guid(9db2357073a068247aeba46007713228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b149ec058933946359af71175654c68') in 0.003570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.511168 seconds.
+  path: Assets/Store.unity
+  artifactKey: Guid(96f32d2825eaa6d479a261d4abb87817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store.unity using Guid(96f32d2825eaa6d479a261d4abb87817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035a1df18b4883d58e2f5c88217c96a4') in 0.001370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.675332 seconds.
+  path: Assets/Materials/beverage_base_color.png
+  artifactKey: Guid(3d660753ea5352545a1e09125e0b57cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/beverage_base_color.png using Guid(3d660753ea5352545a1e09125e0b57cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7aa08085729b6b22152d9220e8f5eb3') in 1.222767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.180296 seconds.
+  path: Assets/Materials/checkout_base_color.png
+  artifactKey: Guid(8957ab1f51629c543a87776a182cecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/checkout_base_color.png using Guid(8957ab1f51629c543a87776a182cecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680aef1c03d3a1a881725eac4e8dd576') in 1.259700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.072660 seconds.
+  path: Assets/Materials/mart_base_color.png
+  artifactKey: Guid(3d16d033d1098af4fa0e6b4d93fb8cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mart_base_color.png using Guid(3d16d033d1098af4fa0e6b4d93fb8cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f9cc7a749d72992cb3342a2a987950') in 0.044581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009933 seconds.
+  path: Assets/Materials/poster_2_base_color.png
+  artifactKey: Guid(3e862fca7466b5f47a85a821132a816e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/poster_2_base_color.png using Guid(3e862fca7466b5f47a85a821132a816e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882ea62c7e04d9b4887ca2557b45bc17') in 0.065436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001289 seconds.
+  path: Assets/Materials/cardboard_box_base_color.png
+  artifactKey: Guid(b2cf654b797d00c4eb8a849547157e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/cardboard_box_base_color.png using Guid(b2cf654b797d00c4eb8a849547157e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170de9f833bc7650ddff3c2dcc85a45d') in 0.833207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031770 seconds.
+  path: Assets/Materials/poster_1_base_color.png
+  artifactKey: Guid(ddfe6875be2186d49aa8b7e7b9600c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/poster_1_base_color.png using Guid(ddfe6875be2186d49aa8b7e7b9600c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d40eb2be4ee0178758997d3a26754e3') in 1.168641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.400989 seconds.
+  path: Assets/Materials/welcome_base_color.png
+  artifactKey: Guid(ce597bc1c00867e428dd1653aa758b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/welcome_base_color.png using Guid(ce597bc1c00867e428dd1653aa758b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5297fd70ce38cfb333453bcb64500727') in 0.073112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.068318 seconds.
+  path: Assets/Materials/gradient.002_base_color.png
+  artifactKey: Guid(79aaff1d1072b5f49b7d6f9f2b7e896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/gradient.002_base_color.png using Guid(79aaff1d1072b5f49b7d6f9f2b7e896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47562ae6b8793afcb140c3fc4427264c') in 0.158796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024581 seconds.
+  path: Assets/Materials/register.screen_base_color.mat
+  artifactKey: Guid(de08cdaed8c7445d5a3f450cc2a5330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/register.screen_base_color.mat using Guid(de08cdaed8c7445d5a3f450cc2a5330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70532ef66cb9fb05edab64ecf0ec6c85') in 6.730409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.172089 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Fruits
+  artifactKey: Guid(44d2380906657fc44ba2c89807b41f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Fruits using Guid(44d2380906657fc44ba2c89807b41f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f187c215f62097ed6f744cceb8f9ee5') in 0.009178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.511026 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Fruits/Apple.prefab
+  artifactKey: Guid(54545446ea7bb1d49a60e927b5cc5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Fruits/Apple.prefab using Guid(54545446ea7bb1d49a60e927b5cc5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f423f21cc25fd0990a2b7e2c0a7c31bf') in 0.651785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.010637 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Fruits/Orange.prefab
+  artifactKey: Guid(74fee6a3efc40094cba60ff0cddb61a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Fruits/Orange.prefab using Guid(74fee6a3efc40094cba60ff0cddb61a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0313a9f9a3f269db5941fa86c903ff4') in 0.248164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 13.267510 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Textures
+  artifactKey: Guid(a85b7d36251b0f14b8e96a99ea9c0340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Textures using Guid(a85b7d36251b0f14b8e96a99ea9c0340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07379c045eb2123de94400fd26a38b3') in 0.012404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.257745 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Materials
+  artifactKey: Guid(2b626869ec7f5f849bb0d9e6b33ff756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Materials using Guid(2b626869ec7f5f849bb0d9e6b33ff756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920290deb0473cfe9ef1a255257e3894') in 0.003166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.314793 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Materials/Fruits
+  artifactKey: Guid(96c4bf0e9cba4a740ad470c18590e866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Materials/Fruits using Guid(96c4bf0e9cba4a740ad470c18590e866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99522ec5c918996c071e36c67589a385') in 0.002426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051270 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Materials/Fruits/Fruits_mtl.mat
+  artifactKey: Guid(b4508076eae7637439117cf86783c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Materials/Fruits/Fruits_mtl.mat using Guid(b4508076eae7637439117cf86783c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7d983b3dde45b6b2690665f4aabfda') in 0.283327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 10.183092 seconds.
+  path: Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Vegetables/Cucumber.prefab
+  artifactKey: Guid(791f3cfbd05e2554d9caf21f58ba0f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThreeBox/Match3D Object Pack - Fruits and Vegetables/Resources/Prefabs/Vegetables/Cucumber.prefab using Guid(791f3cfbd05e2554d9caf21f58ba0f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fff959676d4d8b3edc521d5088cd8b4') in 0.404194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
