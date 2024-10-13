@@ -9,7 +9,14 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-/GroKit-Lite_URP/Library
+# Grokit 
+/GroKit-Lite_URP/[Ll]ibrary/
+/GroKit-Lite_URP/[Tt]emp/
+/GroKit-Lite_URP/[Oo]bj/
+/GroKit-Lite_URP/[Bb]uild/
+/GroKit-Lite_URP/[Bb]uilds/
+/GroKit-Lite_URP/[Ll]ogs/
+/GroKit-Lite_URP/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
