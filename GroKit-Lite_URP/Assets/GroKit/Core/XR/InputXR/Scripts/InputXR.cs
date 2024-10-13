@@ -78,7 +78,7 @@ namespace Core3lb
                 AltInteract,
                 Menu,
                 Move,
-                Custom1, Custom2, Custom3,Custom4
+                Custom1, Custom2, Custom3, Custom4
             }
 
             public enum InputRequest

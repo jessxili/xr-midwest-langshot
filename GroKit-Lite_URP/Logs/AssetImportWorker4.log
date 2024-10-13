@@ -1,0 +1,554 @@
+Unity Editor version:    2022.3.15f1 (b58023a2b463)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.0.1 (Build 24A348)
+Darwin version:          24.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63481
+Successfully changed project path to: /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 540359086 [EditorId] 540359086 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 540359086 [EditorId] 540359086 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 43.82 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 14.63 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56234
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001202 seconds.
+- Loaded All Assemblies, in  0.501 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 394 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1276ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (146ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (536ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.090 seconds
+Refreshing native plugins compatible for Editor in 35.52 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+12/10 16:51:32.184 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+12/10 16:51:32.184 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.198 seconds
+Domain Reload Profiling: 4282ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (1648ms)
+		LoadAssemblies (1217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (442ms)
+			TypeCache.Refresh (373ms)
+				TypeCache.ScanAssembly (323ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1769ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (1555ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[OVRPlugin][INFO] UnityPluginLoad called
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.72 seconds
+Refreshing native plugins compatible for Editor in 7.02 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.77 ms.
+<color=cyan> GroKit-Core Activation </color> - Jessica Xiao you have 181 day(s) remaining on your subscription.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Core3lb.CoreEditor.GroKitCoreWindow/<Authenticate>d__11:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Core3lb.CoreEditor.GroKitAPICall/APIResponse>:TrySetResult (Core3lb.CoreEditor.GroKitAPICall/APIResponse)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Core3lb.CoreEditor.GroKitAPICall/APIResponse>:SetResult (Core3lb.CoreEditor.GroKitAPICall/APIResponse)
+Core3lb.CoreEditor.GroKitAPICall/<_CheckAPIKey>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:SetResult (bool)
+Core3lb.CoreEditor.GroKitAPICall/<>c__DisplayClass4_0:<_CheckAPIKey>b__0 (UnityEngine.AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:21)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs Line: 21)
+
+Unloading 6293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (0.5 MB). Loaded Objects now: 6727.
+Memory consumption went from 286.7 MB to 286.2 MB.
+Total: 29.083750 ms (FindLiveObjects: 0.912125 ms CreateObjectMapping: 0.203042 ms MarkObjects: 19.565875 ms  DeleteObjects: 8.400667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19444.567047 seconds.
+  path: Assets/GroKit/Core/XR/DEBUG_XRRigMover.cs
+  artifactKey: Guid(9fda5b1d3db7430469201387cca83c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/XR/DEBUG_XRRigMover.cs using Guid(9fda5b1d3db7430469201387cca83c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3a40208d213e48c49e93ee99f69b7b') in 0.013859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.330316 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Scripts/MoveRelativeToTargetProvider.cs
+  artifactKey: Guid(1ea05bc656a649746a757b9292f0096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Scripts/MoveRelativeToTargetProvider.cs using Guid(1ea05bc656a649746a757b9292f0096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a544b006da9438e18187c835eb9ad71') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.613875 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Common/RemoveRange.Extensions.cs
+  artifactKey: Guid(2c578537bcf35184a95f154d606e2b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Common/RemoveRange.Extensions.cs using Guid(2c578537bcf35184a95f154d606e2b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4f6d367b3327a0f651dee58e6cc6fa') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.808947 seconds.
+  path: Packages/com.unity.render-pipelines.core/Tests/Editor/RemoveRange.Extensions.Tests.cs
+  artifactKey: Guid(37ec18a486a522e4d8e28946e685e59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/RemoveRange.Extensions.Tests.cs using Guid(37ec18a486a522e4d8e28946e685e59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfa9999f0090d14a5cc57e534e4c521') in 0.000441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.589373 seconds.
+  path: Assets/GroKit/Core/XR/InputXR/Scripts/Grokit_XR_Input_Actions.inputactions
+  artifactKey: Guid(ffddd8c5f0c822c4da8a37bf34504a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/XR/InputXR/Scripts/Grokit_XR_Input_Actions.inputactions using Guid(ffddd8c5f0c822c4da8a37bf34504a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1254bee2e5a1a6547d1af728ce34a98') in 0.077494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/HandRight.asset
+  artifactKey: Guid(9e4109dbfa83c074d8cc6752d94eed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/HandRight.asset using Guid(9e4109dbfa83c074d8cc6752d94eed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d377dd181f28e6f31a1b02fc587c4a') in 0.518066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002913 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_RightArrow@2x.png
+  artifactKey: Guid(28d47cbaafc98254f8d4f6184dff22cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_RightArrow@2x.png using Guid(28d47cbaafc98254f8d4f6184dff22cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cd5e2b4aa35533cefb5e5bf56d6806') in 0.035873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/HandTrigger_ToggleSwitch.prefab
+  artifactKey: Guid(c47abe22a6101f04c92f5296e1de7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/HandTrigger_ToggleSwitch.prefab using Guid(c47abe22a6101f04c92f5296e1de7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897adc2d57e3f76a3a3c7b823248ee88') in 0.192455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_VeryBrightSun@2x.png
+  artifactKey: Guid(e4e685bec200b3c45a29e88e2eeb8ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_VeryBrightSun@2x.png using Guid(e4e685bec200b3c45a29e88e2eeb8ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8325b1542fed2bb66484664cb0aab4e1') in 0.008142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/Ghost-RightHand.prefab
+  artifactKey: Guid(4170d4d20a9b6034a88d89a71c2e0828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/Ghost-RightHand.prefab using Guid(4170d4d20a9b6034a88d89a71c2e0828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fea032ee97c55bb023a95665ca9a39b') in 0.059388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 173
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky.png
+  artifactKey: Guid(a543c2d2147884347a1846e862efa72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky.png using Guid(a543c2d2147884347a1846e862efa72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4186673b04494a1cfde501146ef33342') in 0.003659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
+  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0f713ea02019217219b0b87bc9ba3d') in 0.003648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Textures/Icons/chevron-right.png
+  artifactKey: Guid(795fade5b0619e04e842ef5fe8bada76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Textures/Icons/chevron-right.png using Guid(795fade5b0619e04e842ef5fe8bada76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179948af03a7d0bf6599785dc517fc1f') in 0.043615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/SyntheticHands/Prefabs/[BB] Right Hand Synthetic.prefab
+  artifactKey: Guid(392af43851d822242be5b1ae72b35b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/SyntheticHands/Prefabs/[BB] Right Hand Synthetic.prefab using Guid(392af43851d822242be5b1ae72b35b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931b8a1635ce3ad382da64ed6e7ee4f3') in 0.017525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky@2x.png
+  artifactKey: Guid(9a278b70c427e8e4caa47a45a5d59de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_BrightSky@2x.png using Guid(9a278b70c427e8e4caa47a45a5d59de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80da776754d7f7d447d3fa0f9c607250') in 0.005376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Textures/OCUIIconSet/OCUI_24_Filled_2x.png
+  artifactKey: Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Textures/OCUIIconSet/OCUI_24_Filled_2x.png using Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c70a378fa0cf649c534a1ce50765297') in 1.206735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 371
+========================================================================
+Received Import Request.
+  Time since last request: 1.673868 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Textures/OCUIIconSet/OCUI_24_Outline_2x.png
+  artifactKey: Guid(4f3b4a4ae58ad484e9fc92ab68a8ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Textures/OCUIIconSet/OCUI_24_Outline_2x.png using Guid(4f3b4a4ae58ad484e9fc92ab68a8ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7329a54e77367bae456f70fde1f79256') in 1.249196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 320
+========================================================================
+Received Import Request.
+  Time since last request: 3.151093 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Legacy/InteractionRigOVR-FullSynthetic.prefab
+  artifactKey: Guid(d93b7e04b48cd7b4fa849695dba2ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Legacy/InteractionRigOVR-FullSynthetic.prefab using Guid(d93b7e04b48cd7b4fa849695dba2ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc855191cd23a2f8b28a3dc2e2b1a544') in 0.850583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/OVRRightHandVisual.prefab
+  artifactKey: Guid(34a22dd67c1e5344591237fdd61e78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/OVRRightHandVisual.prefab using Guid(34a22dd67c1e5344591237fdd61e78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b019841acceb2459461e03e82f08ccf') in 0.025178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDTrigger_TimedToggle.prefab
+  artifactKey: Guid(de02e32cba059f14caef59dfc7f83319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDTrigger_TimedToggle.prefab using Guid(de02e32cba059f14caef59dfc7f83319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ede4b106a59f039f46dc06193599e8') in 0.053696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/CameraRig/Prefabs/OVRCameraRigBuildingBlock.prefab
+  artifactKey: Guid(4b650a383c3760f449b65ff48bccdd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/CameraRig/Prefabs/OVRCameraRigBuildingBlock.prefab using Guid(4b650a383c3760f449b65ff48bccdd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e40559de445ab9b955c582b51f3115') in 0.003023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDTrigger_OneShot.prefab
+  artifactKey: Guid(257ced720db756043aaa22a82eb20889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDTrigger_OneShot.prefab using Guid(257ced720db756043aaa22a82eb20889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4225eac0713a45465c2a0411c3651d') in 0.012137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes/NodeChevronRight.png
+  artifactKey: Guid(951848ba8b6205940a9bd1b8fdd4d796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes/NodeChevronRight.png using Guid(951848ba8b6205940a9bd1b8fdd4d796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786e50305aad7064e23db0eceb4e133f') in 0.238077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/OVRRightHandReticle.prefab
+  artifactKey: Guid(9fa0825d6b962924e8124b0b7d0595f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/OVRRightHandReticle.prefab using Guid(9fa0825d6b962924e8124b0b7d0595f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d68a711a92bf61c4b143b7930f624e') in 0.024058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 697
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
+  artifactKey: Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx using Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7cb602c5ff7e3d0964d6ea792375ca') in 0.309405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/OpenXRRightHand.fbx
+  artifactKey: Guid(700142580560ace4cbddcacbae9ae39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/OpenXRRightHand.fbx using Guid(700142580560ace4cbddcacbae9ae39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18797ed78800c84382f0644c0de802a') in 0.024028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDTrigger.prefab
+  artifactKey: Guid(778171caf863f2d45864a765bad58e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDTrigger.prefab using Guid(778171caf863f2d45864a765bad58e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5b281135890c0ade7826a71be98e66') in 0.016861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/PhotonFusion/PlayerNameTag/Prefabs/NetworkedRig.prefab
+  artifactKey: Guid(7f1f582839553344c8827c8e7f15e4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/PhotonFusion/PlayerNameTag/Prefabs/NetworkedRig.prefab using Guid(7f1f582839553344c8827c8e7f15e4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ea4c670baa2a2ae50f9335fb50cafe') in 0.038846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx
+  artifactKey: Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx using Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0944f4cf5f761d99356a8c08f96989fb') in 0.025541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/OVRRightHandSynthetic.prefab
+  artifactKey: Guid(94313e563929cb3499e3989be338a213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/OVRRightHandSynthetic.prefab using Guid(94313e563929cb3499e3989be338a213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c9e1d03dc8f52f3a9aa700c0188b17') in 0.014260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 463
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/PresetKick_Right.png
+  artifactKey: Guid(bdb354565d2d91e48a7ffe02442fe226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/PresetKick_Right.png using Guid(bdb354565d2d91e48a7ffe02442fe226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defd1b60f0819a795306e772ed230f8e') in 0.023629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001160 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Legacy/OculusInteractionSampleRig.prefab
+  artifactKey: Guid(f39a9d103c4129b42a53567f6cd8356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Legacy/OculusInteractionSampleRig.prefab using Guid(f39a9d103c4129b42a53567f6cd8356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c7c3ce29626b59832e7dd5f9e93019') in 2.608153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2650
+========================================================================
+Received Import Request.
+  Time since last request: 0.557482 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/RightArrow.png
+  artifactKey: Guid(df4dc708bd8692446a6d5c3531ac377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/RightArrow.png using Guid(df4dc708bd8692446a6d5c3531ac377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67ad707f2880f9dc400a336c5bbb725') in 0.053530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.360587 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomRight.png
+  artifactKey: Guid(108e201829ab4214383a5467adbc0086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomRight.png using Guid(108e201829ab4214383a5467adbc0086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1f780dc2a43a65407f938c952afad9') in 0.005133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000822 seconds.
+  path: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/Materials/MetaQuestTouchPlusMATphong_right.mat
+  artifactKey: Guid(4b13877204bf5394c80dc8b6e469ec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/Materials/MetaQuestTouchPlusMATphong_right.mat using Guid(4b13877204bf5394c80dc8b6e469ec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5969f10d67624308060c985e699fd581') in 0.393784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 8.898743 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/BlackUnlit.mat
+  artifactKey: Guid(6e4ad31018889974eb4c941fb3f6cec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/BlackUnlit.mat using Guid(6e4ad31018889974eb4c941fb3f6cec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743b1aeb40260fa3f07e96beccbfe9bd') in 0.872378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.992160 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Particles/Confetti.prefab
+  artifactKey: Guid(6cfda136f09a82247913450fb447e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Particles/Confetti.prefab using Guid(6cfda136f09a82247913450fb447e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80610376719fa723a89f9e0c33508f8') in 0.414095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.716193 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/TriplanarBlackGold.mat
+  artifactKey: Guid(c17496627647d49439ab90c49747918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/TriplanarBlackGold.mat using Guid(c17496627647d49439ab90c49747918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ac31d0a03f7b09dbd15677ffd9c5bb') in 0.092983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

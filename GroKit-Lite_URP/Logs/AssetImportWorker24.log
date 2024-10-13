@@ -1,0 +1,2724 @@
+Unity Editor version:    2022.3.15f1 (b58023a2b463)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.0.1 (Build 24A348)
+Darwin version:          24.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker24
+-projectPath
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+-logFile
+Logs/AssetImportWorker24.log
+-srvPort
+63481
+Successfully changed project path to: /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 1271681982 [EditorId] 1271681982 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 1271681982 [EditorId] 1271681982 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 24.24 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 15.55 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56313
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003640 seconds.
+- Loaded All Assemblies, in  0.417 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 287 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 991ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (392ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.361 seconds
+Refreshing native plugins compatible for Editor in 11.96 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+12/10 17:25:29.782 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+12/10 17:25:29.782 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.022 seconds
+Domain Reload Profiling: 2441ms
+	BeginReloadAssembly (366ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (935ms)
+		LoadAssemblies (577ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (410ms)
+			TypeCache.Refresh (343ms)
+				TypeCache.ScanAssembly (281ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (735ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (563ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[OVRPlugin][INFO] UnityPluginLoad called
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.46 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.50 ms.
+<color=cyan> GroKit-Core Activation </color> - Jessica Xiao you have 181 day(s) remaining on your subscription.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Core3lb.CoreEditor.GroKitCoreWindow/<Authenticate>d__11:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Core3lb.CoreEditor.GroKitAPICall/APIResponse>:TrySetResult (Core3lb.CoreEditor.GroKitAPICall/APIResponse)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Core3lb.CoreEditor.GroKitAPICall/APIResponse>:SetResult (Core3lb.CoreEditor.GroKitAPICall/APIResponse)
+Core3lb.CoreEditor.GroKitAPICall/<_CheckAPIKey>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:SetResult (bool)
+Core3lb.CoreEditor.GroKitAPICall/<>c__DisplayClass4_0:<_CheckAPIKey>b__0 (UnityEngine.AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:21)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs Line: 21)
+
+Unloading 6293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (0.5 MB). Loaded Objects now: 6728.
+Memory consumption went from 287.2 MB to 286.7 MB.
+Total: 18.443125 ms (FindLiveObjects: 1.083334 ms CreateObjectMapping: 0.282500 ms MarkObjects: 12.896458 ms  DeleteObjects: 4.180042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21617.794569 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45df36f965622a7342527472fbb6e6bf') in 1.201847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1050
+========================================================================
+Received Import Request.
+  Time since last request: 0.903921 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2bce8f08e3bc3290a32a2deb6073db') in 0.151184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 0.943811 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855f45aa2742507034b8e7997daf159b') in 0.060576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 175.622445 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91c43f0d1521a3d125a3ebcf32b5e2d') in 0.337849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 0.243195 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f38582d833d1a3058a265afc916a2c') in 0.066364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 637.437025 seconds.
+  path: Assets/GroKit/Core/XR/InputXR/Scripts/InputXR_DEFAULT.preset
+  artifactKey: Guid(970ca378115923a45afd31b302f5445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/XR/InputXR/Scripts/InputXR_DEFAULT.preset using Guid(970ca378115923a45afd31b302f5445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee6fd0cf1bee48468f096187f49fca3') in 0.053033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 19.389153 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76464f477733c3e1909d46ce95e912ad') in 0.383566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 71.214930 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd799a4ee5dfb7e5beb6161aa63fe33') in 0.209286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 1.166694 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f386f5a2d3429c1a2449870bd64e51d3') in 0.134180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 2.552008 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727dc3f412353f7c4818923d4c81277c') in 0.123591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 0.780244 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673beeb82869c10a84c262b3ac802e92') in 0.070011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 70.999255 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c2c2126c6d3135140ea02870c5eba1') in 0.234871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 0.280191 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3277694b0357b37de42088a2ec7b92') in 0.063261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 0.430206 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eb0ed7c6af28f85375774aa7d1d78a') in 0.068658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 0.473075 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f6ab936b1b3adc788af8010873696b') in 0.062139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 0.679633 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762816e1a211d72669e1c7d5620909fe') in 0.073652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1183
+========================================================================
+Received Import Request.
+  Time since last request: 237.028245 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8127315eb9b04bc28335afa5e6b0d49') in 0.228328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 1.467992 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4559b19e2dca0b017ce4e0ef900b47af') in 0.164593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 2.391571 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e03e52f8eb08ba8f061e6fce2701a11') in 0.146872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 0.406924 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e96b1f8292b7cc8ad8083ed6c068c5') in 0.077880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 0.318899 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6d9fe897344418a54bc57864f94359') in 0.065548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 0.449061 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969d9dba9d3744d3a597fc8557c978c8') in 0.064639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 1.288394 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ccc93e2c028f9a3c092be1b903ace7') in 0.063627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.386314 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e54335af7e8e7b7c7f178691e7f5203') in 0.066136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.336106 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c032ae9030dc9c731b1ab0c7cc4b45') in 0.054749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.328646 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d27656b3ee75d3672d80b36b2329c34') in 0.060386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1184
+========================================================================
+Received Import Request.
+  Time since last request: 36.801979 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6f2d852729605d2eca1de2264f0f63') in 0.227308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 1.463272 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce19db04a4f9bf9ce78a7f73286f4666') in 0.159148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 10.444788 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9170ad175098fcdfa8df2ab18b24fa32') in 0.203910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 11.190760 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8755e5b9f5ba2317f4318d69b872db98') in 0.195402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1186
+========================================================================
+Received Import Request.
+  Time since last request: 1.540672 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0886d652bd2f5a7a8557e56ea783e04c') in 0.084585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1186
+========================================================================
+Received Import Request.
+  Time since last request: 0.545195 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ba1b2f7b815b02177a4e4884bd624c') in 0.074502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.718696 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58ca112d11fc8c290f7f11220787f66') in 0.210086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1186
+========================================================================
+Received Import Request.
+  Time since last request: 0.809596 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0b81f6e1867ddb013acc607ad9a3be') in 0.197052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1186
+========================================================================
+Received Import Request.
+  Time since last request: 0.936962 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a37a3238ea6aac21ffefd7cab2a166') in 0.073950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.394725 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea6ac2fee2a56a99c79d6b35fba68c1') in 0.066471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 56.007189 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d029d680ff4f4708b35c0073e08073') in 0.208809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.148922 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563fd3c6b42077b69dc9f35b64c62c56') in 0.061595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.504862 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f46962cd1c7c64de3150d29df58718') in 0.059161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 39.440669 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c833ca178a58aec10b7cc2d3ad96fc5') in 0.198018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 7.916909 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f77dd3001471ac38e15a12056ea857d') in 0.171008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 12.076282 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533f88e91f18db5f57e12bcd521abca0') in 0.191374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 18.853155 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e519ffeba9d9eb457b9470309bb082cc') in 0.232885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 191.148188 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abb9c92fdc244b2ce7bddee42b7cc74') in 0.300023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 3.689140 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85d7db5bead76b0ac5c062cd86d2cde') in 0.144317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 24.434731 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20799b1896bdd35c7300de3ea24a8d2') in 0.189686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 25.319886 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79ba037e3b96e3cbf7df2c2dda0ee2a') in 0.183268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 21.682493 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2f6ad22331edfdf0c9249743505d6e') in 0.230030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 72.316952 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5aec0d7c572dc1203711a94cf15f40a') in 0.245580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 3.520119 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffff642a0eac0434db6865238951536c') in 0.148828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 7.190954 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354f372de7d0558ad9e144084cb78b80') in 0.144032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 1.816252 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73472190654613970edc838c7f072db5') in 0.081612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 1.001224 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e164c25bcde2cda2b82e04c9a1a64a') in 0.075341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 0.374541 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef555f78380e165fe26700f4cc9057e') in 0.058195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 3.635623 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa4a48b91b98969e39a6c1acac533f1') in 0.129511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 1.546067 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b5e794901b538d5e69ad2a8a477f86') in 0.184395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 2.728356 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e0a88b162cc7b63fde69817064666c') in 0.141777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 1.137015 seconds.
+  path: Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab
+  artifactKey: Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Integrations/Meta/Prefabs/GroKitMeta [BB] Camera Rig - Controller.prefab using Guid(e7a20283d50eab74cb0751c1ed4994f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe669b6b35f38a5fbc8f190b0d8bfcdf') in 0.136878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1185
+========================================================================
+Received Import Request.
+  Time since last request: 71.065073 seconds.
+  path: Assets/Store.unity
+  artifactKey: Guid(96f32d2825eaa6d479a261d4abb87817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store.unity using Guid(96f32d2825eaa6d479a261d4abb87817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bfbe6c289bf16bbdf6ebf5b663f404') in 0.024896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.594371 seconds.
+  path: Assets/jessica_store.unity
+  artifactKey: Guid(e9661ac591bf840cc8f8b5f1c704701f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jessica_store.unity using Guid(e9661ac591bf840cc8f8b5f1c704701f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424628236dd2e9b0644a792e5c3c3b19') in 0.002293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x343537000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.222 seconds
+Refreshing native plugins compatible for Editor in 36.53 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.330 seconds
+Domain Reload Profiling: 2553ms
+	BeginReloadAssembly (618ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (49ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (250ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (703ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (1331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.29 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.69 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6781.
+Memory consumption went from 245.7 MB to 245.1 MB.
+Total: 5.125209 ms (FindLiveObjects: 0.343541 ms CreateObjectMapping: 0.096125 ms MarkObjects: 4.412750 ms  DeleteObjects: 0.272292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x315287000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.312 seconds
+Domain Reload Profiling: 1830ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1313ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.38 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.95 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6786.
+Memory consumption went from 253.2 MB to 252.6 MB.
+Total: 6.432209 ms (FindLiveObjects: 0.614042 ms CreateObjectMapping: 0.099125 ms MarkObjects: 5.446292 ms  DeleteObjects: 0.272167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x315287000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.545 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.561 seconds
+Domain Reload Profiling: 2108ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.50 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.68 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6791.
+Memory consumption went from 260.7 MB to 260.2 MB.
+Total: 6.503000 ms (FindLiveObjects: 0.487625 ms CreateObjectMapping: 0.110167 ms MarkObjects: 5.526584 ms  DeleteObjects: 0.377666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x315287000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.789 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.413 seconds
+Domain Reload Profiling: 2207ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (508ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (1414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.85 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.65 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6796.
+Memory consumption went from 268.2 MB to 267.7 MB.
+Total: 4.811458 ms (FindLiveObjects: 0.524750 ms CreateObjectMapping: 0.078500 ms MarkObjects: 3.957334 ms  DeleteObjects: 0.250042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f623000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 5.07 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.300 seconds
+Domain Reload Profiling: 1781ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.92 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.66 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6801.
+Memory consumption went from 275.8 MB to 275.3 MB.
+Total: 23.970041 ms (FindLiveObjects: 0.925250 ms CreateObjectMapping: 0.086334 ms MarkObjects: 22.551000 ms  DeleteObjects: 0.406791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 518.008756 seconds.
+  path: Assets/GroKit/Modules/GroKitAudio/Prefabs/Example_AudioSpectrum.prefab
+  artifactKey: Guid(b0f49da184db3ef438d67867c729725e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/GroKitAudio/Prefabs/Example_AudioSpectrum.prefab using Guid(b0f49da184db3ef438d67867c729725e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2248b0bf3ff43029ef6d05920fb1ff7') in 0.366806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.089197 seconds.
+  path: Assets/GroKit/Modules/GroKitAudio/AudioStacks/GrokitAudioStack-RandomClipLoop-Example.asset
+  artifactKey: Guid(6216210101ca11d4a992bd218e1f749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/GroKitAudio/AudioStacks/GrokitAudioStack-RandomClipLoop-Example.asset using Guid(6216210101ca11d4a992bd218e1f749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf82c81661ec1b55abe5327b9b60206a') in 0.009431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.412826 seconds.
+  path: Assets/Resources/MetaXRAcousticSettings.asset
+  artifactKey: Guid(323272494ed7f4451a72c4cea19f5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MetaXRAcousticSettings.asset using Guid(323272494ed7f4451a72c4cea19f5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0a2c72c38140c8a6adde4985327c10') in 0.017337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.718032 seconds.
+  path: Assets/GroKit/Modules/GroKitAudio/Prefabs/GroKitAudioManager.prefab
+  artifactKey: Guid(a0d8fe1f4e150b04dae0e3e79e732a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/GroKitAudio/Prefabs/GroKitAudioManager.prefab using Guid(a0d8fe1f4e150b04dae0e3e79e732a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 5.77 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.70 ms.
+Refreshing native plugins compatible for Editor in 4.47 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.47 ms.
+ -> (artifact id: '786ff8353deb97801a915cd7e7788802') in 0.035433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 3.539762 seconds.
+  path: Assets/GroKit/Modules/GroKitAudio/Scripts/GrokitAudioManager.cs
+  artifactKey: Guid(38bd3b3ac51976c45b75a8124e1870d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/GroKitAudio/Scripts/GrokitAudioManager.cs using Guid(38bd3b3ac51976c45b75a8124e1870d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a77447ed0099e6449ecf15f71ac305a') in 0.000959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.410578 seconds.
+  path: Assets/GroKit/Core/XR/InputXR/Scripts/InputActionManager.cs
+  artifactKey: Guid(2b9d5f833d85421428d72692b7fa8832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/XR/InputXR/Scripts/InputActionManager.cs using Guid(2b9d5f833d85421428d72692b7fa8832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c56bf4d5aea3f1b3c0369be57eff105') in 0.000595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.158268 seconds.
+  path: Assets/GroKit/Core/XR/XRPlayerController.cs
+  artifactKey: Guid(01982f62b8b656d449850089a753a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/XR/XRPlayerController.cs using Guid(01982f62b8b656d449850089a753a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2eda71afb6593c83052a9de3ca64913') in 0.006659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.66 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 8.36 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.1 KB). Loaded Objects now: 6892.
+Memory consumption went from 183.6 MB to 183.1 MB.
+Total: 77.421625 ms (FindLiveObjects: 16.811417 ms CreateObjectMapping: 1.096875 ms MarkObjects: 58.834500 ms  DeleteObjects: 0.678041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.91 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.44 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.0 KB). Loaded Objects now: 6892.
+Memory consumption went from 181.4 MB to 181.0 MB.
+Total: 121.299542 ms (FindLiveObjects: 0.951375 ms CreateObjectMapping: 0.105417 ms MarkObjects: 119.977625 ms  DeleteObjects: 0.263917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f623000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.618 seconds
+Refreshing native plugins compatible for Editor in 16.43 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.564 seconds
+Domain Reload Profiling: 3188ms
+	BeginReloadAssembly (659ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (67ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (261ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (1039ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (1565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (670ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (477ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.80 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.94 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6842.
+Memory consumption went from 281.1 MB to 280.6 MB.
+Total: 10.427416 ms (FindLiveObjects: 1.389833 ms CreateObjectMapping: 0.141792 ms MarkObjects: 8.061417 ms  DeleteObjects: 0.833250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 772.453329 seconds.
+  path: Assets/GroKit/Core/Components/FX/FXPlayer.cs
+  artifactKey: Guid(fee6f64f6b6a6584c8f897cd619b4620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/Components/FX/FXPlayer.cs using Guid(fee6f64f6b6a6584c8f897cd619b4620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1b1b5bf9198e1aa8929ff40b4ba415') in 0.025600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.468827 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/PlayerAssets/Materials
+  artifactKey: Guid(b8ac0e141c7014700b70ac6be0096a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/PlayerAssets/Materials using Guid(b8ac0e141c7014700b70ac6be0096a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b570e44fe654fb9b9f34f33baca27d02') in 0.005464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103042 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/PlayerAssets/Materials/fingers_glow_mask.mat
+  artifactKey: Guid(860165cf305b940429667382f6345094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/PlayerAssets/Materials/fingers_glow_mask.mat using Guid(860165cf305b940429667382f6345094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e92939f18ef3b99d974f8df76a14cc') in 0.366381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 6.785115 seconds.
+  path: Assets/jessica.unity
+  artifactKey: Guid(973b8af4ef75c47c99f36e864453b4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jessica.unity using Guid(973b8af4ef75c47c99f36e864453b4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8625bab3c6418ab196a32970fae2bc08') in 0.001606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.589 seconds
+Refreshing native plugins compatible for Editor in 10.56 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.381 seconds
+Domain Reload Profiling: 2971ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (205ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1069ms)
+		LoadAssemblies (1116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.12 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.90 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6916.
+Memory consumption went from 291.4 MB to 290.9 MB.
+Total: 8.883917 ms (FindLiveObjects: 0.412250 ms CreateObjectMapping: 0.111500 ms MarkObjects: 7.827292 ms  DeleteObjects: 0.531792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.69 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.48 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.2 KB). Loaded Objects now: 6916.
+Memory consumption went from 197.8 MB to 197.3 MB.
+Total: 23.651291 ms (FindLiveObjects: 3.525542 ms CreateObjectMapping: 0.152125 ms MarkObjects: 19.715541 ms  DeleteObjects: 0.257084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.25 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.56 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.2 KB). Loaded Objects now: 6916.
+Memory consumption went from 194.8 MB to 194.3 MB.
+Total: 78.330458 ms (FindLiveObjects: 7.151375 ms CreateObjectMapping: 0.263375 ms MarkObjects: 70.284125 ms  DeleteObjects: 0.630042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.916 seconds
+Refreshing native plugins compatible for Editor in 11.61 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.213 seconds
+Domain Reload Profiling: 5136ms
+	BeginReloadAssembly (877ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (466ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (1949ms)
+		LoadAssemblies (2083ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (53ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (2214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (699ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.83 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.86 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6921.
+Memory consumption went from 294.6 MB to 294.1 MB.
+Total: 16.596792 ms (FindLiveObjects: 0.969083 ms CreateObjectMapping: 0.115917 ms MarkObjects: 14.967041 ms  DeleteObjects: 0.544000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.28 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 4.14 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.2 KB). Loaded Objects now: 6921.
+Memory consumption went from 201.0 MB to 200.5 MB.
+Total: 55.479792 ms (FindLiveObjects: 5.352333 ms CreateObjectMapping: 0.451542 ms MarkObjects: 49.323416 ms  DeleteObjects: 0.351292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2170.852007 seconds.
+  path: Assets/GroKit/Modules/XRMovement/XRTeleport.cs
+  artifactKey: Guid(f6cdc862ad8c547409d94cd5179c75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/XRMovement/XRTeleport.cs using Guid(f6cdc862ad8c547409d94cd5179c75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d299cc58b378d1adb4ff7a79c8c0be') in 0.178940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.992322 seconds.
+  path: Assets/GroKit/Modules/XRMovement/XRStrafe.cs
+  artifactKey: Guid(3737116ab324f744eb677fe3a4b6adc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/XRMovement/XRStrafe.cs using Guid(3737116ab324f744eb677fe3a4b6adc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337b07c547ea2bd91ecd6453d089bdae') in 0.004717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.557995 seconds.
+  path: Assets/GroKit/Modules/XRMovement/XRHandRubberBand.cs
+  artifactKey: Guid(520ab3f8982caf842bf4cf4b82aa9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/XRMovement/XRHandRubberBand.cs using Guid(520ab3f8982caf842bf4cf4b82aa9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd69d3e265701c1e65a403232c5f962e') in 0.003069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 388.716899 seconds.
+  path: Assets/GroKit/Modules/XRMovement
+  artifactKey: Guid(f48e53bc6cde67b4ca67e658dc8378b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/XRMovement using Guid(f48e53bc6cde67b4ca67e658dc8378b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2d6baed764d6fa33c93dc942721e75') in 0.019740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.485 seconds
+Refreshing native plugins compatible for Editor in 11.95 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.514 seconds
+Domain Reload Profiling: 3003ms
+	BeginReloadAssembly (568ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (311ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (850ms)
+		LoadAssemblies (971ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1515ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.16 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 2.31 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6926.
+Memory consumption went from 300.1 MB to 299.6 MB.
+Total: 10.462208 ms (FindLiveObjects: 0.643416 ms CreateObjectMapping: 0.092750 ms MarkObjects: 9.326917 ms  DeleteObjects: 0.398417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 3.43 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.369 seconds
+Domain Reload Profiling: 1953ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.50 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.88 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6931.
+Memory consumption went from 307.7 MB to 307.1 MB.
+Total: 12.223916 ms (FindLiveObjects: 0.743041 ms CreateObjectMapping: 0.092958 ms MarkObjects: 10.515583 ms  DeleteObjects: 0.870333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.767 seconds
+Domain Reload Profiling: 2291ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.21 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.68 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6936.
+Memory consumption went from 315.2 MB to 314.7 MB.
+Total: 14.023958 ms (FindLiveObjects: 1.385375 ms CreateObjectMapping: 0.134583 ms MarkObjects: 10.046959 ms  DeleteObjects: 2.455708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.660 seconds
+Domain Reload Profiling: 2226ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.68 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.21 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6941.
+Memory consumption went from 322.8 MB to 322.3 MB.
+Total: 14.053458 ms (FindLiveObjects: 0.759917 ms CreateObjectMapping: 0.121792 ms MarkObjects: 12.558916 ms  DeleteObjects: 0.610709 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.788 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.65 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.66 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6946.
+Memory consumption went from 330.3 MB to 329.8 MB.
+Total: 11.655292 ms (FindLiveObjects: 1.063875 ms CreateObjectMapping: 0.117209 ms MarkObjects: 9.152750 ms  DeleteObjects: 1.320500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.618 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.649 seconds
+Domain Reload Profiling: 2268ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.34 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.97 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6951.
+Memory consumption went from 337.9 MB to 337.4 MB.
+Total: 7.081709 ms (FindLiveObjects: 0.528834 ms CreateObjectMapping: 0.084584 ms MarkObjects: 6.217458 ms  DeleteObjects: 0.249959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 18.54 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.59 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.1 KB). Loaded Objects now: 6951.
+Memory consumption went from 244.3 MB to 243.9 MB.
+Total: 37.667125 ms (FindLiveObjects: 6.755709 ms CreateObjectMapping: 0.314500 ms MarkObjects: 29.564583 ms  DeleteObjects: 1.031750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.428 seconds
+Refreshing native plugins compatible for Editor in 10.25 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.191 seconds
+Domain Reload Profiling: 2626ms
+	BeginReloadAssembly (462ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (220ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (896ms)
+		LoadAssemblies (966ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.33 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.63 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6956.
+Memory consumption went from 343.3 MB to 342.8 MB.
+Total: 20.278166 ms (FindLiveObjects: 0.365750 ms CreateObjectMapping: 0.081084 ms MarkObjects: 19.434875 ms  DeleteObjects: 0.395375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1220.003865 seconds.
+  path: Assets/GroKit/Modules/GroKitAudio/Templates/3D-Default-AudioTemplate.prefab
+  artifactKey: Guid(661a1b87e508ecc4995f63eb8fa8d88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/GroKitAudio/Templates/3D-Default-AudioTemplate.prefab using Guid(661a1b87e508ecc4995f63eb8fa8d88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4976d45b3a4670ee1037b84304d1f3') in 0.099172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.536 seconds
+Refreshing native plugins compatible for Editor in 15.37 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.554 seconds
+Domain Reload Profiling: 3095ms
+	BeginReloadAssembly (543ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (58ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (168ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (913ms)
+		LoadAssemblies (1081ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (435ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 5.61 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.75 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6961.
+Memory consumption went from 351.1 MB to 350.6 MB.
+Total: 26.018000 ms (FindLiveObjects: 0.558334 ms CreateObjectMapping: 0.106041 ms MarkObjects: 24.550584 ms  DeleteObjects: 0.802417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.799 seconds
+Refreshing native plugins compatible for Editor in 13.07 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.145 seconds
+Domain Reload Profiling: 2956ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (515ms)
+		LoadAssemblies (541ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2147ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.47 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.69 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6966.
+Memory consumption went from 358.7 MB to 358.2 MB.
+Total: 12.036291 ms (FindLiveObjects: 0.599750 ms CreateObjectMapping: 0.108333 ms MarkObjects: 10.978334 ms  DeleteObjects: 0.349000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.62 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 5.35 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.1 KB). Loaded Objects now: 6966.
+Memory consumption went from 265.1 MB to 264.7 MB.
+Total: 57.369375 ms (FindLiveObjects: 25.912042 ms CreateObjectMapping: 0.384042 ms MarkObjects: 30.793375 ms  DeleteObjects: 0.278750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.682 seconds
+Refreshing native plugins compatible for Editor in 14.40 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.442 seconds
+Domain Reload Profiling: 3140ms
+	BeginReloadAssembly (686ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (349ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (909ms)
+		LoadAssemblies (1031ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1443ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.51 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.82 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6971.
+Memory consumption went from 364.1 MB to 363.6 MB.
+Total: 23.780375 ms (FindLiveObjects: 0.654000 ms CreateObjectMapping: 0.145125 ms MarkObjects: 21.289000 ms  DeleteObjects: 1.690125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ef93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.745 seconds
+Domain Reload Profiling: 2346ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.60 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.84 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.5 MB). Loaded Objects now: 6976.
+Memory consumption went from 371.6 MB to 371.1 MB.
+Total: 19.248542 ms (FindLiveObjects: 0.307000 ms CreateObjectMapping: 0.093667 ms MarkObjects: 18.288667 ms  DeleteObjects: 0.558625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.01 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 4.03 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.1 KB). Loaded Objects now: 6976.
+Memory consumption went from 278.1 MB to 277.6 MB.
+Total: 84.635000 ms (FindLiveObjects: 30.180416 ms CreateObjectMapping: 0.344625 ms MarkObjects: 53.643708 ms  DeleteObjects: 0.465458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1285.246915 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/package.json
+  artifactKey: Guid(403995e3f0b94044584146c8cf7e60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/package.json using Guid(403995e3f0b94044584146c8cf7e60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f946a1dd3bdf2ce8023cf0cbb9102a6') in 0.634281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.169282 seconds.
+  path: Packages/com.meta.xr.sdk.platform/Oculus.Platform.asmdef
+  artifactKey: Guid(3b7cf88e9d6729441884290e764f086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.platform/Oculus.Platform.asmdef using Guid(3b7cf88e9d6729441884290e764f086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9adb04e6a601ac611adab151724d6b6') in 0.010772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.385730 seconds.
+  path: Packages/com.meta.xr.sdk.haptics/package.json
+  artifactKey: Guid(2dce79c049682419e95c99a3bd33fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.haptics/package.json using Guid(2dce79c049682419e95c99a3bd33fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3b8c4252a4260f54a4b27200329a31') in 0.008128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.076061 seconds.
+  path: Packages/com.unity.inputsystem/package.json
+  artifactKey: Guid(f0e14ea80f96b445f97b1c83650d5733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/package.json using Guid(f0e14ea80f96b445f97b1c83650d5733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d24cc8e79c938b779ba5f633251dfc') in 0.007149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.253357 seconds.
+  path: Packages/com.unity.editorcoroutines/package.json
+  artifactKey: Guid(6428ca6f30e71ee4dbea7e1d0787cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.editorcoroutines/package.json using Guid(6428ca6f30e71ee4dbea7e1d0787cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d19378d7590992f9f7027858a75573') in 0.004350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.601543 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b361753c69affde0771b0f5946dc5ff') in 0.059318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fa0c3d08bd5c8fc5f19a94635a67b8') in 0.012430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2982116256b28d1ec38429e53eb6a6') in 0.085687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742e9692ab296d9a105fe5df4a60ff73') in 0.039822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.884724 seconds.
+  path: Assets/GroKit/URP_Settings/URP/GroKit-Core URP Renderer.asset
+  artifactKey: Guid(38ba93c9a75ddce4fa22d7fc5a856cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/URP_Settings/URP/GroKit-Core URP Renderer.asset using Guid(38ba93c9a75ddce4fa22d7fc5a856cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49ff2a75fe3a3a2711d6eb35bdc7709') in 0.039081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 25.17 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.27 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (486.1 KB). Loaded Objects now: 6976.
+Memory consumption went from 275.2 MB to 274.7 MB.
+Total: 147.718750 ms (FindLiveObjects: 0.789791 ms CreateObjectMapping: 0.097792 ms MarkObjects: 146.621541 ms  DeleteObjects: 0.208791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 446.690207 seconds.
+  path: Assets/GroKit/Modules/GroKitAudio/Templates/3D-custom-1-30=Loop-nonSpatialized-AudioTemplate.prefab
+  artifactKey: Guid(7be50703fdb73a744a8fb9551964aa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Modules/GroKitAudio/Templates/3D-custom-1-30=Loop-nonSpatialized-AudioTemplate.prefab using Guid(7be50703fdb73a744a8fb9551964aa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e47ac0179978d10c08c8c05b2d877d') in 1.403131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LookDev.png
+  artifactKey: Guid(85099cb723efe4444a23b08281d721c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LookDev.png using Guid(85099cb723efe4444a23b08281d721c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3d0aa5feaf9b2aac2ebf8889cc828a') in 0.479391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LookDev.png
+  artifactKey: Guid(0615fe8910911be4299d5604a54db99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LookDev.png using Guid(0615fe8910911be4299d5604a54db99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b57422d5ce8f2cade5b9a296358611f') in 0.037840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LookDev@2x.png
+  artifactKey: Guid(ffdf80dc342e69344b2dccafe04c30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LookDev@2x.png using Guid(ffdf80dc342e69344b2dccafe04c30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca86c16218c68f8a3e5179a6f8e66e30') in 0.028004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LookDev@2x.png
+  artifactKey: Guid(bd76726ffb1eb94429fb8143429bd978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LookDev@2x.png using Guid(bd76726ffb1eb94429fb8143429bd978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6069c1f0a97b20eae73a7c04dd1afb9') in 0.029945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001842 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Data/Textures/FalloffLookupTexture.png
+  artifactKey: Guid(5688ab254e4c0634f8d6c8e0792331ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/Data/Textures/FalloffLookupTexture.png using Guid(5688ab254e4c0634f8d6c8e0792331ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d4788e3e83fd99158bc4a463a820e7') in 0.027273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/AvatarSDK/Prefabs/Rendering/AVATAR_LOD_DEBUG_CANVAS.prefab
+  artifactKey: Guid(bc69bed182ea859469880da3ad5f2f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/AvatarSDK/Prefabs/Rendering/AVATAR_LOD_DEBUG_CANVAS.prefab using Guid(bc69bed182ea859469880da3ad5f2f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3a45e7e5da4838b9b5d4fc45ac244') in 0.108805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
