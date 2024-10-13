@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using Random = System.Random;
 
-[System.Serializable]  // Make the class serializable
+[System.Serializable]
 public class Word
 {
     public string english;
@@ -15,17 +15,19 @@ public class Word
         english = e;
         spanish = s;
     }
+
+    public override string ToString() // Override ToString for better logging
+    {
+        return $"{english} - {spanish}";
+    }
 }
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public Word[] words;
     public Word[] selectedWords;
     private Random rand = new Random();
-
-    /*
-         public string[] spanishWords = { "libro", "manzana", "leche", "pan", "agua" };
-     */
 
     public int currentWordIndex = 0;
 
@@ -56,6 +58,11 @@ public class GameManager : MonoBehaviour
         };
 
         selectedWords = words.OrderBy(w => rand.Next()).Take(10).ToArray();
+        Debug.Log("START ");
+        for (int i = 0; i < selectedWords.Length; i++)
+        {
+            Debug.Log(selectedWords[i]);
+        }
 
     }
     void Awake()
@@ -78,13 +85,19 @@ public class GameManager : MonoBehaviour
         if (currentWordIndex >= selectedWords.Length)
         {
             selectedWords = words.OrderBy(w => rand.Next()).Take(10).ToArray();
+            currentWordIndex = 0;  // Reset the index after shuffling new words
+            Debug.Log("Words reset");
+            for (int i = 0; i < selectedWords.Length; i++)
+            {
+                Debug.Log(selectedWords[i].english);  // Display the new set of words
+            }
         }
         else
         {
-            Debug.Log("next word! " + selectedWords[currentWordIndex]);
-
+            Debug.Log("next word! " + selectedWords[currentWordIndex].english);
         }
     }
+
 
     public string getCurrentSpanish()
     {
