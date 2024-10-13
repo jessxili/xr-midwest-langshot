@@ -247,6 +247,8 @@ GameObject:
   - component: {fileID: 665286024954427633}
   - component: {fileID: 7351824634643782383}
   - component: {fileID: 7139996878917322486}
+  - component: {fileID: -6112701110532951731}
+  - component: {fileID: -732873227718655222}
   m_Layer: 0
   m_Name: SausageBullet
   m_TagString: Untagged
@@ -337,6 +339,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7533da3bcfbff44cbbd71957bfd729d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6112701110532951731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712740966643625335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e56b0a9cfb81543a6fe25f9dde6e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canMove: 1
+  speed: 6
+  direction: {x: 0, y: 0, z: 1}
+  isLocal: 1
+  forwardReference: {fileID: 0}
+  isRigidBody: 0
+--- !u!114 &-732873227718655222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712740966643625335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00da7d5f503647bd87d2675fa5c8601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathTime: 3
 --- !u!1 &4283351417202274049
 GameObject:
   m_ObjectHideFlags: 0

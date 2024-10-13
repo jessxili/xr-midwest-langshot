@@ -1,6 +1,10 @@
 using System;
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.Events;
+using Vector3 = UnityEngine.Vector3;
+using Quaternion = UnityEngine.Quaternion;
+
 
 namespace Core3lb
 {
