@@ -81,3 +81,9 @@ crashlytics-build.properties
 /GroKit-Lite_URP/Logs
 /GroKit-Lite_URP/Logs
 /GroKit-Lite_URP/Temp
+/GroKit-Lite_URP/Logs
+/GroKit-Lite_URP/Logs
+/GroKit-Lite_URP/Logs
+/GroKit-Lite_URP/Temp
+/GroKit-Lite_URP/Logs
+*.log

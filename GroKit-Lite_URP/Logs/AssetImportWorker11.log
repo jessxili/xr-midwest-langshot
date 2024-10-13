@@ -1,0 +1,394 @@
+Unity Editor version:    2022.3.15f1 (b58023a2b463)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.0.1 (Build 24A348)
+Darwin version:          24.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+63481
+Successfully changed project path to: /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+/Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 511321659 [EditorId] 511321659 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8416932416] Host "[IP] 35.2.95.171 [Port] 0 [Flags] 2 [Guid] 511321659 [EditorId] 511321659 [Version] 1048832 [Id] OSXEditor(0,jx-mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 37.17 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 13.23 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Owner/Documents/GitHub/xr-midwest-langshot/GroKit-Lite_URP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56522
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005637 seconds.
+- Loaded All Assemblies, in  0.493 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 249 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (532ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (340ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.053 seconds
+Refreshing native plugins compatible for Editor in 48.08 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+12/10 16:53:34.995 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+12/10 16:53:34.995 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.164 seconds
+Domain Reload Profiling: 3187ms
+	BeginReloadAssembly (423ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (39ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1467ms)
+		LoadAssemblies (1200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (314ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1165ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (913ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (696ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+[OVRPlugin][INFO] UnityPluginLoad called
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.96 seconds
+Refreshing native plugins compatible for Editor in 3.37 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.31 ms.
+<color=cyan> GroKit-Core Activation </color> - Jessica Xiao you have 181 day(s) remaining on your subscription.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Core3lb.CoreEditor.GroKitCoreWindow/<Authenticate>d__11:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Core3lb.CoreEditor.GroKitAPICall/APIResponse>:TrySetResult (Core3lb.CoreEditor.GroKitAPICall/APIResponse)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Core3lb.CoreEditor.GroKitAPICall/APIResponse>:SetResult (Core3lb.CoreEditor.GroKitAPICall/APIResponse)
+Core3lb.CoreEditor.GroKitAPICall/<_CheckAPIKey>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:SetResult (bool)
+Core3lb.CoreEditor.GroKitAPICall/<>c__DisplayClass4_0:<_CheckAPIKey>b__0 (UnityEngine.AsyncOperation)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:21)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs Line: 21)
+
+Unloading 6293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (0.5 MB). Loaded Objects now: 6727.
+Memory consumption went from 286.8 MB to 286.3 MB.
+Total: 109.549500 ms (FindLiveObjects: 5.383375 ms CreateObjectMapping: 1.812708 ms MarkObjects: 83.229250 ms  DeleteObjects: 19.116417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19507.270514 seconds.
+  path: Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDPassFailTrigger.prefab
+  artifactKey: Guid(c93fe80474c5f6448b4d105414a6f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/ItemIDPassFailTrigger.prefab using Guid(c93fe80474c5f6448b4d105414a6f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f59945d1097ece356f94b03d69a1d41') in 0.768675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.101157 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/RightHandSynthetic.prefab
+  artifactKey: Guid(237a83b022ba30a41906ffd8873eeb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/RightHandSynthetic.prefab using Guid(237a83b022ba30a41906ffd8873eeb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ce0de7f9c026a918b4fab32ddde695') in 0.035224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.010593 seconds.
+  path: Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/SpecificObjectTrigger.prefab
+  artifactKey: Guid(5f6551031802cfa4c8aa4d8de193d136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/GroBlocks/OutwardActivators/BaseTriggers-OutwardActivators/SpecificObjectTrigger.prefab using Guid(5f6551031802cfa4c8aa4d8de193d136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c7ef89d79654b26c93183164bb679f') in 0.105774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/TriggerDebugGreen.mat
+  artifactKey: Guid(17a9b35e7d4dc784b870584bc39459b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/TriggerDebugGreen.mat using Guid(17a9b35e7d4dc784b870584bc39459b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbec4c6a95b18ad8d885645aadc7d665') in 0.059054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021997 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/TriggerDebugMagenta.mat
+  artifactKey: Guid(ba2a011b4ad877a4f9c410cda919e4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/TriggerDebugMagenta.mat using Guid(ba2a011b4ad877a4f9c410cda919e4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e1d60e6f03be9eed9f24e6b1318cc9') in 0.011142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010859 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  artifactKey: Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions using Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6360bc91b55a40ec10d0550236d1d265') in 0.094148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.020344 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c6b4537e7bc6fd677cd5065b5f0354') in 0.011247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.369123 seconds.
+  path: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProRight_Material.mat
+  artifactKey: Guid(dfee80e1d2a38ea45a01698af1c06034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProRight_Material.mat using Guid(dfee80e1d2a38ea45a01698af1c06034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad30983e1f3a542a9d52ba63c722bec') in 0.102503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 9.203438 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/GlowBlue.mat
+  artifactKey: Guid(88229cd02ffce5a478e9501e338929f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/GlowBlue.mat using Guid(88229cd02ffce5a478e9501e338929f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6be82ef2403ae9341efa31e09210668') in 0.376769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001781 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/ProtoSeafoam.mat
+  artifactKey: Guid(6b5eabfb9941c1f4a90c953cefd6eaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/ProtoSeafoam.mat using Guid(6b5eabfb9941c1f4a90c953cefd6eaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6e4ee370d99d55f1c29081dcc216ac') in 0.021700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022495 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/ProtoDark.mat
+  artifactKey: Guid(a5a4887d9f39f10478e877c82913a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/ProtoDark.mat using Guid(a5a4887d9f39f10478e877c82913a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e061fc7af865c8369e9e2ca4f2e12818') in 0.015519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001626 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/Protored.mat
+  artifactKey: Guid(e615a1e4b7b291547be3861f81d4fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/Protored.mat using Guid(e615a1e4b7b291547be3861f81d4fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ea3bd1b6455e76599feb6e14eccf24') in 0.013759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010479 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/Lit-URP.mat
+  artifactKey: Guid(c947fcf81fc9c4a4c8ae1d7463fc4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/Lit-URP.mat using Guid(c947fcf81fc9c4a4c8ae1d7463fc4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36483d38a64714cd02c186ab291eac16') in 0.011394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011604 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/MetalGold.mat
+  artifactKey: Guid(98a477d073eaaad4b848a7dc767c4956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/MetalGold.mat using Guid(98a477d073eaaad4b848a7dc767c4956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93843922a5fdbb4a9948dd4f03e50725') in 0.015225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013411 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/MetalRed.mat
+  artifactKey: Guid(4b5b6865cf9deb34dadcc3e1a9a399cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/MetalRed.mat using Guid(4b5b6865cf9deb34dadcc3e1a9a399cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc8e2e2c06f7f88f70952a53b9bba8a') in 0.017109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032735 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/ProtoBrick.mat
+  artifactKey: Guid(0e1b470fb9437d74db9037c75a21ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/ProtoBrick.mat using Guid(0e1b470fb9437d74db9037c75a21ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cabeaa3e401fadb49b97a43819fdac') in 0.013169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.174833 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Particles/Poof.prefab
+  artifactKey: Guid(353055b48331ee14fa271415b2b167c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Particles/Poof.prefab using Guid(353055b48331ee14fa271415b2b167c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc508878e154b2204f6b623d6a8b2b4') in 0.100764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.024282 seconds.
+  path: Assets/GroKit/Core/zInternal/Core Assets/Materials/TriplanarBrown.mat
+  artifactKey: Guid(09bbefab3de56d44699bc7d5804bafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroKit/Core/zInternal/Core Assets/Materials/TriplanarBrown.mat using Guid(09bbefab3de56d44699bc7d5804bafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa14cd3a33a935981a204caa57ae9f8') in 0.103779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
