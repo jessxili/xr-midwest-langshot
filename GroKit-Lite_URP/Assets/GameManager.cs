@@ -31,6 +31,20 @@ public class GameManager : MonoBehaviour
 
     public int currentWordIndex = 0;
 
+    void Awake()
+    {
+        // Singleton pattern
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Start()
     {
         words = new Word[]
@@ -64,19 +78,6 @@ public class GameManager : MonoBehaviour
             Debug.Log(selectedWords[i]);
         }
 
-    }
-    void Awake()
-    {
-        // Singleton pattern
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
     public void moveToNextWord()
